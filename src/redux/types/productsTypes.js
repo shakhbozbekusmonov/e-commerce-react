@@ -1,0 +1,1 @@
+export const UPDATE_STATE = "PRODUCTS/UPDATE_STATE";
