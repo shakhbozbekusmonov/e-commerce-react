@@ -4,8 +4,10 @@ import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import Card from "../components/Card";
 import Loader from "../components/Loader";
+import useScrollTop from "../hooks/useScrollTop";
 
 const Product = (props) => {
+    useScrollTop();
     const { id } = useParams();
 
     useEffect(() => {
